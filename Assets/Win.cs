@@ -15,7 +15,7 @@ public class Win : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //
-            if (counter == 3)
+            if (counter == 2)
             {
                 GameManager.Win();
             }
